@@ -40,11 +40,11 @@ RUN /bin/bash -c "source /opt/ros/dashing/setup.bash ;\
 
 # Download demo example
 RUN /bin/bash -c "git clone https://github.com/intellicode-demo/ros2demo_domain30_d.git;\
-                  cp intellicode-demo/src/run_teleoperation.sh . ;\
+                  cp ros2demo_domain30_d/src/run_teleoperation.sh . ;\
                   chmod +x teleop_keyboard.py ;\
-                  cp intellicode-demo/src/entrypoint.sh . ;\
+                  cp ros2demo_domain30_d/src/entrypoint.sh . ;\
                   chmod +x entrypoint.sh ;\
-                  cp intellicode-demo/src/teleop_keyboard.py /turtlebot3_ws/src/turtlebot3/turtlebot3/turtlebot3_teleop/turtlebot3_teleop/script/ ;\
+                  cp ros2demo_domain30_d/src/teleop_keyboard.py /turtlebot3_ws/src/turtlebot3/turtlebot3/turtlebot3_teleop/turtlebot3_teleop/script/ ;\
                   chmod +x run_teleoperation.sh"
 
 

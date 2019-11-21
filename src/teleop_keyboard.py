@@ -52,7 +52,7 @@ ANG_VEL_STEP_SIZE = 0.2
 TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
 
 msg = """
-Control Your TurtleBot3(turn right)!!
+Control Your TurtleBot3(turn RIGHT)!!
 ---------------------------
 Moving around:
         w

@@ -128,6 +128,7 @@ def check_angular_limit_velocity(velocity):
     if TURTLEBOT3_MODEL == 'burger':
         
         #return constrain(velocity, -BURGER_MAX_ANG_VEL, BURGER_MAX_ANG_VEL)
+        print('check_angular_limit_velocity:\t velocity {0} '.format(velocity))
         
         return -0.2
     else:
